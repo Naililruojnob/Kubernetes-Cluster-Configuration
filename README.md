@@ -58,6 +58,13 @@ Nœuds workers
 | TCP       | Entrant   | 10250         | Kubelet API         | Lui-même, Control plane |
 | TCP       | Entrant   | 30000-32767   | NodePort Services** | Eux-mêmes               |
 
+## Ajout d’un nœud dans le cluster Kubernetes
+
+### Récupération du token sur un des masters
+
+```bash
+sudo kubeadm token create --print-join-command
+
 
 
 
