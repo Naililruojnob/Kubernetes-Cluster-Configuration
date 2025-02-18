@@ -11,7 +11,7 @@ else
 fi
 
 # Définir la liste des workers autorisés (remplace par les IPs de tes workers)
-WORKERS=("IP" "IP" "IP")
+WORKERS=("" "" "")
 
 # Réinitialiser UFW et appliquer une politique par défaut stricte
 ufw --force reset
