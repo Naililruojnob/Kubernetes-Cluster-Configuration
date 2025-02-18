@@ -1,5 +1,20 @@
 # Kubernetes-Cluster-Configuration
 
+## Pre-requis masters and workers
+
+[kube-pre-requis.sh](https://github.com/Naililruojnob/Kubernetes-Cluster-Configuration/blob/e911c7d8bf47e0bcd59c62f7c761a7e2b1124d5e/pre-requis/kube-pre-requis.sh)
+
+## Configure masters
+
+[kube-masters.sh](https://github.com/Naililruojnob/Kubernetes-Cluster-Configuration/blob/e911c7d8bf47e0bcd59c62f7c761a7e2b1124d5e/pre-requis/kube-masters.sh)
+
+## ufw Masters
+
+[kube-masters-ufw.sh](https://github.com/Naililruojnob/Kubernetes-Cluster-Configuration/blob/e911c7d8bf47e0bcd59c62f7c761a7e2b1124d5e/ufw/kube-masters-ufw.sh)
+
+## ufw workers
+
+[kube-workers-ufw.sh](https://github.com/Naililruojnob/Kubernetes-Cluster-Configuration/blob/e911c7d8bf47e0bcd59c62f7c761a7e2b1124d5e/ufw/kube-workers-ufw.sh)
 
 ## hosts
 
