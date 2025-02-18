@@ -1,5 +1,15 @@
 #!/bin/bash
 
+# Vérifie si UFW est installé
+if ! command -v ufw &> /dev/null
+then
+    echo "UFW n'est pas installé. Installation en cours..."
+    sudo apt update
+    sudo apt install -y ufw
+else
+    echo "UFW est déjà installé."
+fi
+
 # Définir la liste des masters autorisés (remplace par les IPs de tes Masters)
 MASTERS=("IP")
 
