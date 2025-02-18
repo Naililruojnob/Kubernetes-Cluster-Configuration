@@ -64,7 +64,7 @@ Nœuds workers
 
 ```bash
 sudo kubeadm token create --print-join-command
-
+```
 
 
 
