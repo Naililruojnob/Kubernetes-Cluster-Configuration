@@ -19,8 +19,6 @@ ufw --force reset
 ufw default deny incoming  # Bloquer tout le trafic entrant par défaut
 ufw default allow outgoing  # Autoriser tout le trafic sortant par défaut
 
-# Autoriser kubelet API (auto-administré par le nœud lui-même et accessible par le control plane)
-
 # Autoriser les connexions depuis les masters et workers
 for IP in "${MASTERS[@]}" "${WORKERS[@]}"; do
     ufw allow from $IP comment "Autoriser les connexions depuis $IP"
